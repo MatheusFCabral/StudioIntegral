@@ -1,1 +1,42 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Studio Integral</a> -->
+      <div [routerLink]="['/main/home']"><img href="#" class="logo" src="../assets/logo.png"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav align-items-center">
+          <a class="nav-link mx-3 active" aria-current="page" [routerLink]="['/main/formacao']">Formação</a>
+          <a class="nav-link mx-3" [routerLink]="['/main/retiro']">Retiro</a>
+          <a class="nav-link mx-3" [routerLink]="['/main/aulas-presencial']">Aulas Presencial</a>
+          <a class="nav-link mx-3" [routerLink]="['/main/aulas-online']">Aulas Online</a>
+          <a class="nav-link mx-3" [routerLink]="['/main/mestres-da-linhagem']">Mestres</a>
+          <a class="nav-link mx-3" [routerLink]="['/main/codigo-de-etica']">Código de Ética</a>
+          <a class="nav-link mx-3" [routerLink]="['/main/planos-e-precos']">Planos e Preço</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
 <router-outlet></router-outlet>
+<footer class="my-5 py-3">
+  <div class="row d-flex flex-column align-items-center justify-content-center text-center">
+    <div class="col-12 d-flex flex-column align-items-center mb-3">
+      <p>Certificação internacional Yoga Alliance - USA</p>
+      <img src="../assets/certificado-footer.png" alt="">
+    </div>
+    <p><a href="https://g.page/studiointegralsp?share" target="_blank"><i class='bx bxs-map-pin icon-footer'></i></a>Rua
+      Basílio da
+      Cunha, 16 – Aclimação – São Paulo – SP</p>
+    <div class="col-12 d-flex justify-content-center align-items-center">
+      <a href="https://www.youtube.com/c/WalNunes" target="_blank"><i class='bx bxl-youtube  icon-footer mx-4'></i></a>
+      <a href="https://www.instagram.com/studiointegral_yoga/" target="_blank"><i
+          class='bx bxl-instagram-alt icon-footer mx-4'></i></a>
+      <a href="" target="_blank"><i class='bx bxl-whatsapp-square icon-footer mx-4'></i></a>
+    </div>
+    COPYRIGHT 2021 | STUDIO INTEGRAL® Todos os direitos reservados
+  </div>
+</footer>

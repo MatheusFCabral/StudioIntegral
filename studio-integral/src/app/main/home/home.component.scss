@@ -1,3 +1,146 @@
+
 .banner{
+  object-fit: cover;
+  object-position: 20% 40%;
+  height: 450px;
+}
+
+.carrosel-destaque{
+  width: 100vw;
+}
+
+.img-banner{
+  object-fit: cover;
+  object-position: 20% 80%;
+  max-height: 600px;
+  width: 100%;
+}
+
+.img-destaque{
+  object-fit: cover;
+  object-position: 0 80%;
   max-height: 400px;
+  width: 100%;
+}
+
+.logo{
+  width: 75px;
+  height: 75px;
+}
+
+
+.fonte-destaque{
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 0 0 5px #000;
+}
+
+.texto-destaque{
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-shadow: 0 0 3px #000;
+}
+
+.imagem-carrosel {
+  object-fit: cover;
+  object-position: 70% 80%;
+  height: 450px;
+}
+
+.imagem-carrosel1 {
+  object-fit: cover;
+  object-position: 70% 40%;
+  height: 450px;
+}
+
+.btn-carrosel{
+  background-color: #ab2e8800;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  width: 200px;
+}
+
+.btn-card{
+  background-color: #4d2971;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  width: auto;
+}
+
+.card-posicao-imagem{
+  object-fit: cover;
+ /*  object-position:0 80%; */
+  height: 250px;
+  border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+.card-largura{
+  max-width: 23rem;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.imagem{
+  -webkit-box-shadow: 5px 9px 15px 5px rgba(0,0,0,0.24);
+  box-shadow: 5px 9px 15px 5px rgba(0,0,0,0.24);
+  border-radius: 30px;
+}
+
+.imagem-metodo{
+  width: auto;
+  height: 350px;
+}
+
+#walnunes{
+  margin-bottom: 300px;
+}
+
+
+@media (max-width: 576px) {
+
+    .banner{
+      object-fit: cover;
+      object-position: 52%;
+      height: 450px;
+    }
+
+    .imagem-metodo{
+      width: 90vw;
+      height: auto;
+    }
+    #metodo{
+      margin: 0px 5%;
+    }
+    #objetivo{
+      margin: 0px 5%;
+    }
+    #walnunes{
+      margin: 0px 5%;
+    }
+    #quem_somos{
+      margin: 0px 5%;
+    }
+
+}
+
+@media (min-width: 576px) {
+  #metodo{
+    margin: 0px 5%;
+  }
+  #objetivo{
+    margin: 0px 5%;
+  }
+  #walnunes{
+    margin: 0px 5%;
+  }
+  #quem_somos{
+    margin: 0px 5%;
+
+  }
+  .text-limit{
+    max-width: 800px;
+  }
+
 }

@@ -45,7 +45,7 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
+                  "maximumWarning": "3kb",
                   "maximumError": "4kb"
                 }
               ],
@@ -77,6 +77,9 @@
             "development": {
               "browserTarget": "studio-integral:build:development"
             }
+          },
+          "options": {
+            "disableHostCheck": true
           },
           "defaultConfiguration": "development"
         },

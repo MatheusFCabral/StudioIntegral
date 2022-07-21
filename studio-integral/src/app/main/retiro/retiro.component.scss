@@ -1,0 +1,243 @@
+.banner{
+  width: 100%;
+}
+
+.carrosel-destaque{
+  width: 100%;
+  position: relative;
+}
+
+.title-main{
+  width: 500px;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  left: 35%;
+}
+
+.img-banner{
+  object-fit: cover;
+  object-position: 0 80%;
+  max-height: 600px;
+  width: 100%;
+}
+
+.img-destaque{
+  object-fit: cover;
+  object-position: 0 80%;
+  max-height: 400px;
+  width: 100%;
+}
+
+.logo{
+  width: 75px;
+  height: 75px;
+}
+
+.fotos{
+  width: 100%;
+  background-color: #F78F7A8F;
+  /* padding: 15px; */
+  padding-bottom: 15px;
+  margin: 0px 0px 15px 0px;
+}
+
+.fonte-destaque-banner{
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 0 0 5px #000;
+}
+
+.texto-destaque-banner{
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-shadow: 0 0 3px #000;
+}
+
+.imagem-carrosel {
+  object-fit: fill;
+  height: 450px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagem-wal{
+  border-radius: 20px;
+}
+
+.nome-convidado{
+  color: #000;
+}
+
+.foto-convidado{
+  height: 400px;
+  width: auto;
+}
+
+.convidados{
+  width: 100%;
+}
+
+.imagem-carrosel-banner{
+  object-fit: fill;
+  object-position: 50% 50%;
+  height: auto;
+}
+
+.text-banner{
+  position: absolute;
+  top: 80px;
+  margin: 0px 30%;
+}
+
+.seta-carrosel{
+  color:#5F2CA7;
+}
+
+.btn-carrosel{
+  background-color: #ab2e8800;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  width: 200px;
+}
+
+.btn-card{
+  background-color: #5F2CA7;
+  border-radius: 50px;
+  height: 45px;
+  width: auto;
+}
+
+.vivencias{
+  padding: 0px 50px;
+}
+
+.walnunes{
+  padding: 10px;
+  margin: 0;
+  background-color: #EAC8828F;
+}
+
+
+.dia-programacao{
+  color: #000;
+  font-weight: 400;
+}
+
+.lista-programacao{
+  list-style: none;
+}
+
+#programacao{
+  width: 100%;
+}
+
+.texto-preco{
+  font-size: 1.5rem;
+}
+
+.preco{
+  background-color: #F78F7A8F;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+.btn-cta-compra{
+  background-color: #5F2CA7;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  height: 55px;
+  min-width: 300px;
+}
+
+.img-ebook{
+  width: 100%;
+  padding: 5px;
+  /* height: 200px; */
+}
+
+@media (max-width: 768px) {
+  .title-main{
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-align: center;
+  }
+
+  .foto-convidado{
+    height: auto;
+    width: 100%;
+  }
+
+  .imagem-carrosel {
+    object-fit: fill;
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imagem-carrosel-banner{
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 450px;
+  }
+
+  .text-banner{
+    position: absolute;
+    top: 130px;
+    margin: 0px 10%;
+  }
+
+  .vivencias{
+    padding: 0px 15px;
+  }
+
+  .walnunes{
+    padding: 5%;
+    margin: 0;
+    background-color: #EAC8828F;
+  }
+
+  .carousel{
+    position: relative;
+  }
+  .carousel-indicators{
+    position: absolute;
+    bottom: -20px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 900px){
+  .title-main{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 899px) and (min-width: 576px){
+  .title-main{
+    width: 400px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-limit{
+    max-width: 800px;
+  }
+
+}
+
+
