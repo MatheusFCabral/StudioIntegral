@@ -9,6 +9,7 @@ import { OnlineComponent } from './main/online/online.component';
 import { PlanosComponent } from './main/planos/planos.component';
 import { CodigoDeEticaComponent } from './main/codigo-de-etica/codigo-de-etica.component';
 import { MestresComponent } from './main/mestres/mestres.component';
+import { MeditacaoLuaCheiaComponent } from './main/meditacao-lua-cheia/meditacao-lua-cheia.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'main/home', pathMatch: 'full' },
@@ -44,6 +45,11 @@ const routes: Routes = [
       {
         path: 'mestres-da-linhagem',
         component: MestresComponent,
+        pathMatch: 'full',
+      },
+      {
+        path: 'meditacao-lua-cheia',
+        component: MeditacaoLuaCheiaComponent,
         pathMatch: 'full',
       },
     ],

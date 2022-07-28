@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { RetiroComponent } from './retiro/retiro.component';
 import { FormacaoComponent } from './formacao/formacao.component';
-import 'boxicons';
 import { PresencialComponent } from './presencial/presencial.component';
 import { OnlineComponent } from './online/online.component';
 import { PlanosComponent } from './planos/planos.component';
@@ -11,7 +10,7 @@ import { CodigoDeEticaComponent } from './codigo-de-etica/codigo-de-etica.compon
 import { MestresComponent } from './mestres/mestres.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
-import { SharedModule } from '../shared/shared.module';
+import { MeditacaoLuaCheiaComponent } from './meditacao-lua-cheia/meditacao-lua-cheia.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +23,9 @@ import { SharedModule } from '../shared/shared.module';
     CodigoDeEticaComponent,
     MestresComponent,
     FooterComponent,
+    MeditacaoLuaCheiaComponent,
   ],
-  imports: [CommonModule, RouterModule, SharedModule],
+  imports: [CommonModule, RouterModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class MainModule {}
