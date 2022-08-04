@@ -9,8 +9,8 @@ import { PlanosComponent } from './planos/planos.component';
 import { CodigoDeEticaComponent } from './codigo-de-etica/codigo-de-etica.component';
 import { MestresComponent } from './mestres/mestres.component';
 import { RouterModule } from '@angular/router';
-import { FooterComponent } from './footer/footer.component';
 import { MeditacaoLuaCheiaComponent } from './meditacao-lua-cheia/meditacao-lua-cheia.component';
+import { TerapiasComponent } from './terapias/terapias.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { MeditacaoLuaCheiaComponent } from './meditacao-lua-cheia/meditacao-lua-
     PlanosComponent,
     CodigoDeEticaComponent,
     MestresComponent,
-    FooterComponent,
     MeditacaoLuaCheiaComponent,
+    TerapiasComponent,
   ],
   imports: [CommonModule, RouterModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
