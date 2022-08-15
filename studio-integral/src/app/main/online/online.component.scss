@@ -1,15 +1,17 @@
-.container-iframe{
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-  height: 0;
-  max-height: 200px;
-  iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
+
+ @media (max-width: 900px) {
+  .container-iframe{
+    position: relative;
     width: 100%;
-    height: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
@@ -47,6 +49,9 @@
   border: 2px solid #fff;
   height: auto;
 
+  text-decoration: none;
+  text-align: center;
+  padding-top: 7px;
   min-height: 45px;
   min-width: 350px;
 }
