@@ -6,6 +6,11 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [{
+      "source": "www.studiointegral.com.br/**",
+      "destination": "https://studio-integral.com.br",
+      "type": 302
+    } ],
     "rewrites": [
       {
         "source": "**",

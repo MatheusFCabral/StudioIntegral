@@ -1,0 +1,258 @@
+h1, h2{
+ color: #EC9A5C;
+}
+
+p, li, strong{
+  font-size: 1.5rem;
+}
+
+
+.header{
+  /* background-image: url('/assets/meditacao1.png');
+  background-size: 100% 700px;
+  padding: 250px 0px 250px 0px; */
+  padding: 0px;
+  width: 100%;
+  position: relative;
+}
+
+.img-header{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0% 90%;
+}
+
+.text-header{
+  position: absolute;
+  top: 110px;
+  left: 50px;
+
+  .main-text{
+    color: #fff;
+    font-size: 5rem;
+  }
+
+  .sub-text{
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+.btn-cta{
+  width: 346px;
+  padding: 13px;
+  background-color: #63C85A;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.aulas{
+  margin: 0;
+  background-color: #FFEACD;
+  width: 100%;
+
+  .num-aula{
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+  .text-aula{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+.valores{
+  margin: 0;
+  background-color: #FFEACD;
+  width: 100%;
+
+  .card-compra{
+    position: relative;
+    background-color: #D7D3D3;
+    border-radius: 40px;
+    width: 280px;
+    height: 349px;
+
+    hr{
+      width: 100%;
+      color: #D7D3D3;
+      margin: 0;
+    }
+
+    p{
+      margin: 0;
+    }
+
+    .card-content{
+      position: relative;
+      width: 280px;
+      height: 289px;
+      background-color: #fff;
+      border-radius: 40px;
+
+      .btn-cta{
+        width: 221px;
+        height: 64px;
+      }
+    }
+
+    .card-content2{
+      color: #666363;
+      position: absolute;
+      bottom: 5px;
+      left: 100px;
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.title-cronograma{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.list-cronograma{
+  li{
+    font-size: 1.5rem;
+    max-width: 500px;
+    text-align: start;
+  }
+}
+
+.cronograma{
+  position: relative;
+}
+
+.div-img-cronogrma{
+  position: absolute;
+  bottom: 0;
+  right: -70px;
+}
+
+.para-quem{
+  background-color: #EC9A5C;
+  h1{
+    color: #000;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+}
+
+.icon-carrosel{
+  color: #EC9A5C;
+  font-size: 50px;
+}
+
+.indicador-carrossel{
+  background-color: #EC9A5C;
+}
+
+.carousel{
+  position: relative;
+}
+
+.carousel-indicators{
+  position: absolute;
+  bottom: -40px;
+}
+.carousel-control-next{
+  position: absolute;
+  right: -70px;
+}
+.carousel-control-prev{
+  position: absolute;
+  left: -70px;
+}
+
+.subtitle-carrossel{
+  color: #000;
+}
+
+.imagem-carrosel{
+  height: 500px;
+  max-width: 900px;
+}
+
+.img-shakti{
+  height: 500px;
+}
+
+.img-aula{
+  width: 100%;
+}
+
+
+
+@media (max-width: 600px){
+
+  .img-aulas{
+    border-radius: 30px;
+  }
+
+  .imagem-carrosel{
+    width: 400px;
+    height: auto;
+    max-height: 500px;
+  }
+
+  .carousel-control-prev, .carousel-control-prev{
+    display: none
+  }
+
+  .header{
+    padding: 0px;
+    width: 100%;
+    position: relative;
+  }
+
+  .img-header{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 80% 90%;
+  }
+
+  .text-header{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    .main-text{
+      color: #fff;
+      font-size: 3.5rem;
+    }
+
+    .sub-text{
+      color: #fff;
+      font-size: 1.8rem;
+    }
+  }
+
+  .cronograma{
+    padding-bottom: 300px;
+  }
+
+
+  .div-img-cronogrma{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    .img-cronograma{
+      height: 300px;
+    }
+  }
+
+  .img-shakti{
+    height: 400px;
+  }
+
+}

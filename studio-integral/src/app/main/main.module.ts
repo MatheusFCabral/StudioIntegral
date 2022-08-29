@@ -11,6 +11,7 @@ import { MestresComponent } from './mestres/mestres.component';
 import { RouterModule } from '@angular/router';
 import { MeditacaoLuaCheiaComponent } from './meditacao-lua-cheia/meditacao-lua-cheia.component';
 import { TerapiasComponent } from './terapias/terapias.component';
+import { RetiroMeditacaoComponent } from './retiro-meditacao/retiro-meditacao.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { TerapiasComponent } from './terapias/terapias.component';
     MestresComponent,
     MeditacaoLuaCheiaComponent,
     TerapiasComponent,
+    RetiroMeditacaoComponent,
   ],
   imports: [CommonModule, RouterModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
