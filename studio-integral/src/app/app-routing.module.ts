@@ -1,5 +1,5 @@
 import { PresencialComponent } from './main/presencial/presencial.component';
-import { FormacaoComponent } from './main/formacao/formacao.component';
+/* import { FormacaoComponent } from './main/formacao/formacao.component'; */
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './main/home/home.component';
@@ -12,6 +12,7 @@ import { MestresComponent } from './main/mestres/mestres.component';
 import { MeditacaoLuaCheiaComponent } from './main/meditacao-lua-cheia/meditacao-lua-cheia.component';
 import { TerapiasComponent } from './main/terapias/terapias.component';
 import { RetiroMeditacaoComponent } from './main/retiro-meditacao/retiro-meditacao.component';
+import { FormacaoNovoComponent } from './main/formacao-novo/formacao-novo.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'main/home', pathMatch: 'full' },
@@ -23,7 +24,7 @@ const routes: Routes = [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent, pathMatch: 'full' },
       { path: 'retiro', component: RetiroComponent, pathMatch: 'full' },
-      { path: 'formacao', component: FormacaoComponent, pathMatch: 'full' },
+      { path: 'formacao', component: FormacaoNovoComponent, pathMatch: 'full' },
       {
         path: 'aulas-presencial',
         component: PresencialComponent,
