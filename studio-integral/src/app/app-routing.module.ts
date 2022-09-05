@@ -1,7 +1,7 @@
 import { PresencialComponent } from './main/presencial/presencial.component';
 /* import { FormacaoComponent } from './main/formacao/formacao.component'; */
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './main/home/home.component';
 import { MainComponent } from './main/main.component';
 import { RetiroComponent } from './main/retiro/retiro.component';
@@ -69,10 +69,15 @@ const routes: Routes = [
   },
 ];
 
+const routerOptions: ExtraOptions = {
+  useHash: false,
+  anchorScrolling: 'enabled',
+  scrollPositionRestoration: 'enabled',
+  // ...any other options you'd like to use
+};
+
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' }),
-  ],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

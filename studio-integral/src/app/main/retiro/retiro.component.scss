@@ -2,6 +2,39 @@
   width: 100%;
 }
 
+.header{
+  /* background-image: url('/assets/meditacao1.png');
+  background-size: 100% 700px;
+  padding: 250px 0px 250px 0px; */
+  padding: 0px;
+  width: 100%;
+  position: relative;
+}
+
+.img-header{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0% 90%;
+
+}
+
+.text-header{
+  position: absolute;
+  top: 110px;
+  left: 50px;
+
+  .main-text{
+    color: #fff;
+    font-size: 5rem;
+  }
+
+  .sub-text{
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
 .carrosel-destaque{
   width: 100%;
   position: relative;
@@ -13,6 +46,32 @@
   top: 40%;
   text-align: center;
   left: 35%;
+}
+
+.icon-carrosel{
+  color: #4d2971;
+  font-size: 50px;
+}
+
+.indicador-carrossel{
+  background-color: #4d2971;
+}
+
+
+.carousel{
+  position: relative;
+}
+.carousel-indicators{
+  position: absolute;
+  bottom: -40px;
+}
+.carousel-control-next{
+  position: absolute;
+  right: -65px;
+}
+.carousel-control-prev{
+  position: absolute;
+  left: -65px;
 }
 
 .img-banner{
@@ -38,7 +97,7 @@
   width: 100%;
   background-color: #F78F7A8F;
   /* padding: 15px; */
-  padding-bottom: 15px;
+  padding-bottom: 35px;
   margin: 0px 0px 15px 0px;
 }
 
@@ -135,6 +194,16 @@
   width: 100%;
 }
 
+#compra{
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -50px; /* esse valor varia de acordo com a altura do seu Header, se ele tiver 200px de altura coloque aqui -220px por exemplo */
+    background-color: transparent;
+    z-index: -1;
+}
+
 .texto-preco{
   font-size: 1.5rem;
 }
@@ -160,7 +229,105 @@
   /* height: 200px; */
 }
 
+.card-compra{
+  position: relative;
+  background-color: #D7D3D3;
+  border-radius: 40px;
+  width: 280px;
+  height: 289px;
+
+  hr{
+    width: 100%;
+    color: #D7D3D3;
+    margin: 0;
+  }
+
+  p{
+    margin: 0;
+  }
+
+  .card-content{
+    position: relative;
+    width: 280px;
+    height: 289px;
+    background-color: #fff;
+    border-radius: 40px;
+
+    .btn-cta{
+      width: 221px;
+      height: 64px;
+      padding: 13px;
+      background-color: #63C85A;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 40px;
+
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .btn-cta-disabled{
+      width: 221px;
+      height: 64px;
+      padding: 13px;
+      background-color: #7b7b7b;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 40px;
+
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .card-content2{
+    color: #666363;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+    p{
+      font-size: 1rem;
+    }
+  }
+}
+
 @media (max-width: 768px) {
+
+  .header{
+    /* background-image: url('/assets/meditacao1.png');
+    background-size: 100% 700px;
+    padding: 250px 0px 250px 0px; */
+    padding: 0px;
+    width: 100%;
+    position: relative;
+  }
+
+  .img-header{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0% 90%;
+
+  }
+
+  .text-header{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+
+    .main-text{
+      color: #fff;
+      font-size: 3.5rem;
+    }
+
+    .sub-text{
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  }
+
   .title-main{
     width: auto;
     position: absolute;
@@ -210,7 +377,7 @@
   }
   .carousel-indicators{
     position: absolute;
-    bottom: -20px;
+    bottom: -50px;
   }
 }
 

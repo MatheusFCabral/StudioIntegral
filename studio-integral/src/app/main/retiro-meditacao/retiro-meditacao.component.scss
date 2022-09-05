@@ -16,11 +16,16 @@ p, li, strong{
   position: relative;
 }
 
+.img{
+  border-radius: 20px;
+}
+
 .img-header{
   width: 100%;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   object-position: 0% 90%;
+
 }
 
 .text-header{
@@ -41,7 +46,7 @@ p, li, strong{
 
 .btn-cta{
   width: 346px;
-  padding: 13px;
+  padding: 10px;
   background-color: #63C85A;
   text-align: center;
   text-decoration: none;
