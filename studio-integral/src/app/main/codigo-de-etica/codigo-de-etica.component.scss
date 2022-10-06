@@ -1,7 +1,14 @@
-.imagem{
+.imagem-codigo{
   object-fit: cover;
-  object-position: 0% 80%;
-  height: 300px;
+  object-position: 0% 55%;
+  height: 350px;
+  min-width: 100vw;
+}
+
+.imagem-politica{
+  object-fit: cover;
+  object-position: 0% 45%;
+  height: 350px;
   min-width: 100vw;
 }
 
@@ -11,4 +18,49 @@
 
 .conteudo{
   max-width: 80vw;
+}
+
+.header{
+  width: 100%;
+  height: 55px;
+  background-color: #98408e9d;
+}
+
+.title-page{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-link.active:hover{
+  background-color: #fff !important;
+  color: #7b3573 !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  margin: 0;
+}
+
+.nav-link.active{
+  background-color: #fff !important;
+  color: #98408e !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  margin: 0;
+}
+
+.nav-link{
+  color: rgb(245, 241, 241) !important;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+.nav-link:hover{
+  color: rgb(255, 255, 255) !important;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0);
 }
