@@ -118,10 +118,6 @@ border-top-right-radius: 30px;
   height: auto;
 }
 
-#walnunes{
-  margin-bottom: 300px;
-}
-
 
 @media (max-width: 576px) {
 
@@ -139,37 +135,6 @@ border-top-right-radius: 30px;
       width: 90vw;
       height: auto;
     }
-    #metodo{
-      margin: 0px 5%;
-    }
-    #objetivo{
-      margin: 0px 5%;
-    }
-    #walnunes{
-      margin: 0px 5%;
-    }
-    #quem_somos{
-      margin: 0px 5%;
-    }
-
 }
 
-@media (min-width: 576px) {
-  #metodo{
-    margin: 0px 5%;
-  }
-  #objetivo{
-    margin: 0px 5%;
-  }
-  #walnunes{
-    margin: 0px 5%;
-  }
-  #quem_somos{
-    margin: 0px 5%;
 
-  }
-  .text-limit{
-    max-width: 800px;
-  }
-
-}
