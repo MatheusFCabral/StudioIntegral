@@ -1,3 +1,16 @@
+#grade{
+  background-color: #EAC8828F;
+}
+
+#bonus{
+  background-color: #EAC8828F;
+}
+
+#preco{
+  background-color: #F78F7A8F;
+}
+
+
 .banner{
   width: 100%;
 }
@@ -46,13 +59,7 @@
   height: 75px;
 }
 
-.bonus{
-  width: 100%;
-  background-color: #EAC8828F;
-  /* padding: 15px; */
-  padding-bottom: 15px;
-  margin: 0px 0px 15px 0px;
-}
+
 
 .lista-bonus{
   list-style: none;
@@ -138,20 +145,7 @@
   width: auto;
 }
 
-.grade{
-  padding: 0px 50px;
-}
 
-.walnunes{
-  padding: 10px;
-  margin: 0;
-
-}
-
-.professores{
-  padding: 10px;
-  margin: 0;
-}
 
 .icon-carrosel{
   color: #4d2971;
@@ -162,11 +156,6 @@
   background-color: #4d2971;
 }
 
-.grade{
-  padding: 10px;
-  margin: 0;
-  background-color: #EAC8828F;
-}
 
 .carousel{
   position: relative;
@@ -201,20 +190,11 @@
   font-size: 1.5rem;
 }
 
-#programacao{
-  width: 100%;
-}
 
 .texto-preco{
   font-size: 1.5rem;
 }
 
-.preco{
-  background-color: #F78F7A8F;
-  width: 100%;
-  margin: 0;
-  padding: 5px;
-}
 
 .btn-cta-compra{
   background-color: #5F2CA7;
@@ -298,9 +278,6 @@
     margin: 0px 10%;
   }
 
-  .grade{
-    padding: 0px 15px;
-  }
 
 
 
@@ -330,12 +307,4 @@
     text-align: center;
   }
 }
-
-@media (min-width: 768px) {
-
-  .text-limit{
-    max-width: 800px;
-  }
-}
-
 
