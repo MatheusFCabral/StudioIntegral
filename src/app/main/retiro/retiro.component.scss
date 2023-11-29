@@ -1,39 +1,51 @@
-.banner{
+#banner{
   width: 100%;
-}
-
-.header{
-  /* background-image: url('/assets/meditacao1.png');
-  background-size: 100% 700px;
-  padding: 250px 0px 250px 0px; */
-  padding: 0px;
-  width: 100%;
-  position: relative;
-}
-
-.img-header{
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  object-position: 0% 90%;
-
-}
-
-.text-header{
-  position: absolute;
-  top: 110px;
-  left: 50px;
-
-  .main-text{
-    color: #fff;
-    font-size: 5rem;
+  .header{
+    /* background-image: url('/assets/meditacao1.png');
+    background-size: 100% 700px;
+    padding: 250px 0px 250px 0px; */
+    padding: 0px;
+    width: 100%;
+    position: relative;
   }
-
-  .sub-text{
-    color: #fff;
-    font-size: 2rem;
+  
+  .img-header{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0% 90%;
+  
+  }
+  
+  .text-header{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+  
+    .main-text{
+      color: #fff;
+      font-size: 5rem;
+    }
+  
+    .sub-text{
+      color: #fff;
+      font-size: 2rem;
+    }
   }
 }
+
+#fotos{
+  background-color: #F78F7A8F;
+}
+
+#walnunes{
+  background-color: #EAC8828F;
+}
+
+#preco{
+  background-color: #F78F7A8F;
+}
+
 
 .carrosel-destaque{
   width: 100%;
@@ -93,13 +105,7 @@
   height: 75px;
 }
 
-.fotos{
-  width: 100%;
-  background-color: #F78F7A8F;
-  /* padding: 15px; */
-  padding-bottom: 35px;
-  margin: 0px 0px 15px 0px;
-}
+
 
 .fonte-destaque-banner{
   color: #fff;
@@ -170,15 +176,8 @@
   width: auto;
 }
 
-.vivencias{
-  padding: 0px 50px;
-}
 
-.walnunes{
-  padding: 10px;
-  margin: 0;
-  background-color: #EAC8828F;
-}
+
 
 
 .dia-programacao{
@@ -208,12 +207,7 @@
   font-size: 1.5rem;
 }
 
-.preco{
-  background-color: #F78F7A8F;
-  width: 100%;
-  margin: 0;
-  padding: 5px;
-}
+
 
 .btn-cta-compra{
   background-color: #5F2CA7;
@@ -294,39 +288,42 @@
 }
 
 @media (max-width: 768px) {
-
-  .header{
-    /* background-image: url('/assets/meditacao1.png');
-    background-size: 100% 700px;
-    padding: 250px 0px 250px 0px; */
-    padding: 0px;
-    width: 100%;
-    position: relative;
-  }
-
-  .img-header{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: 0% 90%;
-
-  }
-
-  .text-header{
-    position: absolute;
-    top: 40px;
-    left: 30px;
-
-    .main-text{
-      color: #fff;
-      font-size: 3.5rem;
+  #banner{
+    .header{
+      /* background-image: url('/assets/meditacao1.png');
+      background-size: 100% 700px;
+      padding: 250px 0px 250px 0px; */
+      padding: 0px;
+      width: 100%;
+      position: relative;
     }
-
-    .sub-text{
-      color: #fff;
-      font-size: 1.5rem;
+  
+    .img-header{
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      object-position: 0% 90%;
+  
+    }
+  
+    .text-header{
+      position: absolute;
+      top: 40px;
+      left: 30px;
+  
+      .main-text{
+        color: #fff;
+        font-size: 3.5rem;
+      }
+  
+      .sub-text{
+        color: #fff;
+        font-size: 1.5rem;
+      }
     }
   }
+
+  
 
   .title-main{
     width: auto;
@@ -360,10 +357,6 @@
     position: absolute;
     top: 130px;
     margin: 0px 10%;
-  }
-
-  .vivencias{
-    padding: 0px 15px;
   }
 
   .walnunes{
