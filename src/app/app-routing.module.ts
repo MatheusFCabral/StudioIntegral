@@ -5,11 +5,9 @@ import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './main/home/home.component';
 import { MainComponent } from './main/main.component';
 import { RetiroComponent } from './main/retiro/retiro.component';
-import { OnlineComponent } from './main/online/online.component';
 import { PlanosComponent } from './main/planos/planos.component';
 import { CodigoDeEticaComponent } from './main/codigo-de-etica/codigo-de-etica.component';
 import { MestresComponent } from './main/mestres/mestres.component';
-import { MeditacaoLuaCheiaComponent } from './main/meditacao-lua-cheia/meditacao-lua-cheia.component';
 import { TerapiasComponent } from './main/terapias/terapias.component';
 import { RetiroMeditacaoComponent } from './main/retiro-meditacao/retiro-meditacao.component';
 import { FormacaoNovoComponent } from './main/formacao-novo/formacao-novo.component';
@@ -31,11 +29,6 @@ const routes: Routes = [
         pathMatch: 'full',
       },
       {
-        path: 'aulas-online',
-        component: OnlineComponent,
-        pathMatch: 'full',
-      },
-      {
         path: 'planos-e-precos',
         component: PlanosComponent,
         pathMatch: 'full',
@@ -48,11 +41,6 @@ const routes: Routes = [
       {
         path: 'mestres-da-linhagem',
         component: MestresComponent,
-        pathMatch: 'full',
-      },
-      {
-        path: 'meditacao-lua-cheia',
-        component: MeditacaoLuaCheiaComponent,
         pathMatch: 'full',
       },
       {
