@@ -6,6 +6,84 @@ p, li, strong{
   font-size: 1.5rem;
 }
 
+#aulas{
+  background-color: #FFEACD;
+
+  .num-aula{
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+  
+  .text-aula{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+#cronograma{
+  position: relative;
+
+  .div-img-cronogrma{
+    position: absolute;
+    bottom: 0;
+    right: -70px;
+  }
+}
+
+#valores{
+  background-color: #FFEACD;
+
+  .card-compra{
+    position: relative;
+    background-color: #D7D3D3;
+    border-radius: 40px;
+    width: 280px;
+    height: 349px;
+
+    hr{
+      width: 100%;
+      color: #D7D3D3;
+      margin: 0;
+    }
+
+    p{
+      margin: 0;
+    }
+
+    .card-content{
+      position: relative;
+      width: 280px;
+      height: 349px;
+      background-color: #fff;
+      border-radius: 40px;
+
+      .btn-cta{
+        width: 221px;
+        height: 64px;
+      }
+    }
+
+    .card-content2{
+      color: #666363;
+      position: absolute;
+      bottom: 5px;
+      left: 100px;
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+#para-quem{
+  background-color: #EC9A5C;
+  h1{
+    color: #000;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+}
 
 .header{
   /* background-image: url('/assets/meditacao1.png');
@@ -61,67 +139,9 @@ p, li, strong{
   height: 500px;
 }
 
-.aulas{
-  margin: 0;
-  background-color: #FFEACD;
-  width: 100%;
 
-  .num-aula{
-    font-weight: 900;
-    font-size: 3.5rem;
-  }
-  .text-aula{
-    font-size: 1.5rem;
-    font-weight: 400;
-  }
-}
 
-.valores{
-  margin: 0;
-  background-color: #FFEACD;
-  width: 100%;
 
-  .card-compra{
-    position: relative;
-    background-color: #D7D3D3;
-    border-radius: 40px;
-    width: 280px;
-    height: 349px;
-
-    hr{
-      width: 100%;
-      color: #D7D3D3;
-      margin: 0;
-    }
-
-    p{
-      margin: 0;
-    }
-
-    .card-content{
-      position: relative;
-      width: 280px;
-      height: 349px;
-      background-color: #fff;
-      border-radius: 40px;
-
-      .btn-cta{
-        width: 221px;
-        height: 64px;
-      }
-    }
-
-    .card-content2{
-      color: #666363;
-      position: absolute;
-      bottom: 5px;
-      left: 100px;
-      p{
-        font-size: 1rem;
-      }
-    }
-  }
-}
 
 .title-cronograma{
   font-size: 2rem;
@@ -136,25 +156,9 @@ p, li, strong{
   }
 }
 
-.cronograma{
-  position: relative;
-}
 
-.div-img-cronogrma{
-  position: absolute;
-  bottom: 0;
-  right: -70px;
-}
 
-.para-quem{
-  background-color: #EC9A5C;
-  h1{
-    color: #000;
-  }
-  p{
-    font-size: 1.5rem;
-  }
-}
+
 
 .icon-carrosel{
   color: #EC9A5C;
